@@ -1,0 +1,158 @@
+*{
+    box-sizing:border-box;
+ }
+ body{
+   background-color:lightgray;
+   box-sizing: border-box;
+ }
+ 
+ #incomp{
+  text-decoration: none;
+  color: whitesmoke;
+  
+}
+#compose{
+background-color: hsl(167deg 100% 37%); 
+width: 80%;
+padding-right: 10px;
+padding-right: 10px;
+margin: 20px 0 0 20px;
+
+}
+ .fold-in{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid hsl(204deg 12% 92%);
+    text-decoration: none;
+   }
+   .dot-a,.dot-c,.dot-d,.dot-s,.dot-w {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+   .dot-w{
+    background-color:hsl(167deg 100% 37%);
+  }
+  .dot-d{
+    background-color:hsl(346deg 91% 58%);
+  }
+  .dot-a{
+    background-color:hsl(180deg 100% 40%);
+  }
+  .dot-s{
+    background-color:hsl(0deg 0% 40%);
+  }
+  .dot-c{
+    background-color:hsl(36deg 93% 64%);
+  }
+  .badge,.bade{
+    margin-left: 40%;
+  }
+
+ .leftcont{
+   background-color:rgb(252, 249, 249);
+   width: 25%;
+   height:100%;
+   top: 0%;
+   margin-left: 2%;
+   
+ }
+ .btn{
+    color: hsl(57deg 7% 50%);
+  }
+ 
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f4;
+}
+.compose-mail{
+  top: 1%;
+  position: absolute;
+  left: 26%;
+  width: 75%;
+  height:100%;
+  background-color: white;
+  margin-left: 1.5%;
+  color: #b9b7b7;
+}
+.rt-btns{
+  top: 3%;
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 0%;
+}
+.spin-icon {
+  background: #1ab394;
+  position: absolute;
+  padding: 7px 10px 7px 13px;
+  border-radius: 20px 0 0 20px;
+  font-size: 16px;
+  top: 1%;
+  left: 96.7%;
+  width: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mail-box {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.mail-box{
+  left: 26%;
+  position: absolute;
+  width: 70%;
+  height: 90%;
+  top: 10%;
+}
+.mail-box .mail-body 
+{
+  padding-left: 15px;
+ 
+  margin-top: 3%;
+  left: 2%;
+   color:#7c7a7a;
+   font-size: 15px;
+}
+
+.text
+{
+  padding:0px 10px 10px 15px;
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  color: #6a6a6a;
+}
+
+.tool{
+  padding-top:10px;
+  background: #f9f8f8;
+  position: absolute;
+  left: 1%;
+
+  
+  
+}
+.tool ul li{
+  margin: 2px 2px 2px 5px;
+  width:50px;
+  height:20px;
+}
+.dwnbtn {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+
+
+
+

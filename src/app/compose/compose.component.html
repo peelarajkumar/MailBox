@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+
+
+<div class="right-cont">
+
+    <div class="compose-mail">
+        <h3>Compose Mail</h3>
+
+    </div>
+    <p class="rt-btns">
+        <button class="btn btn-default"><i class="fa fa-pencil"></i> Draft</button>
+        <button class="btn btn-danger"><i class="fa fa-times"></i> Discard</button>
+    </p>
+</div>
+<div align=center class="spin-icon">
+    <i style="height: 3%; width: 3%;" class="fa fa-cogs fa-spin"> </i>
+</div>
+
+
+
+<div class="mail-box">
+
+
+    <div [formGroup]="form" class="mail-body">
+
+
+        <div class="form-group row"><label class="col-sm-2 col-form-label">To:</label>
+            <div class="col-sm-10"><input name="tname" id="tname" type="text" class="form-control" formControlName="tname"></div>
+        </div>
+        <div class="form-group row"><label class="col-sm-2 col-form-label">Subject:</label>
+            <div class="col-sm-10"><input type="text" class="form-control">
+            </div>
+        </div>
+
+        <hr>
+        <div class="tool">
+
+            <ul>
+
+                <li class="fa fa-magic"></li>
+                <li class="fa fa-bold"></li>
+                <li class="fa fa-underline"></li>
+                <li class="fa fa-eraser"></li>
+                <li class="fa fa-font"></li>
+                <li class="fa fa-list-ul"></li>
+                <li class="fa fa-list-ol"></li>
+                <li class="fa fa-indent"></li>
+                <li class="fa fa-table"></li>
+                <li class="fa fa-link"></li>
+                <li class="fa fa-photo"></li>
+                <li class="fa fa-video-camera"></li>
+                <li class="fa fa-arrows-alt"></li>
+                <li class="fa fa-code"></li>
+                <li class="fa fa-question"></li>
+
+
+            </ul>
+        </div>
+        <div class="mail-text h-200">
+
+            <div class="text">
+                <h3>Type your Mail Here </h3>
+                <textarea class="form-control" formControlName="mailcon" id="mailcon" name="mailcon" rows="7" cols="120"> </textarea>
+
+                <br>
+                <br>
+
+            </div>
+        </div>
+
+        <div class="dwnbtn">
+
+            <div class="mail-body text-right ">
+
+                <a style="text-decoration: none;"> <button (click)="sendMail()" id="send" class="btn btn-sm" style=" background: #1bb394;
+                color: white;
+                font-size: medium;"><i class="fa fa-reply"></i> Send</button> </a>
+
+                <a href="mailbox.html" class="btn btn-white btn-sm"><i class="fa fa-times"></i>
+                    Discard</a>
+                <a href="mailbox.html" class="btn btn-white btn-sm"><i class="fa fa-pencil"></i>
+                    Draft</a>
+            </div>
+        </div>
+    </div>
+</div>

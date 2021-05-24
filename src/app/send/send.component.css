@@ -1,0 +1,116 @@
+*{
+    box-sizing:border-box;
+ }
+ body{
+   background-color:lightgray;
+   box-sizing: border-box;
+ }
+ 
+ .btn-txt{
+   text-decoration: none;
+   color: whitesmoke;
+ }
+ 
+ #incomp{
+  text-decoration: none;
+  color: whitesmoke;
+  
+}
+#compose{
+background-color: hsl(167deg 100% 37%); 
+width: 80%;
+padding-right: 10px;
+padding-right: 10px;
+margin: 20px 0 0 20px;
+
+}
+
+ .fold-in{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid hsl(204deg 12% 92%);
+  text-decoration: none;
+ }
+ 
+ .leftcont{
+   background-color:rgb(252, 249, 249);
+   width: 25%;
+   height:100%;
+   top: 0%;
+   }
+   
+
+ .btn{
+   color: hsl(57deg 7% 50%);
+ }
+ .dot-w{
+   background-color:hsl(167deg 100% 37%);
+ }
+ .dot-d{
+   background-color:hsl(346deg 91% 58%);
+ }
+ .dot-a{
+   background-color:hsl(180deg 100% 40%);
+ }
+ .dot-s{
+   background-color:hsl(0deg 0% 40%);
+ }
+ .dot-c{
+   background-color:hsl(36deg 93% 64%);
+ }
+ .badge,.bade{
+   margin-left: 40%;
+ }
+ .h2{
+ color: rgb(73, 71, 71);
+ }
+ .head-inb{
+   color: rgb(127, 129, 128);
+ }
+ .midcont{
+   top: 0%;
+   position: absolute;
+   left: 26%;
+   width: 75%;
+   height:100%;
+   background-color: white;
+ }
+ .dot-a,.dot-c,.dot-d,.dot-s,.dot-w {
+   height: 11px;
+   width: 11px;
+   border-radius: 50%;
+   display: inline-block;
+ }
+ 
+ .mailtable{
+     position:absolute;
+     top: 20%;
+     font-size: medium;
+   
+ }
+  .search{
+   top: 3%;
+   position: absolute;
+   left: 56%;
+   width: 75%;
+   height: 40%;
+   
+    font-size: 16px;
+    font-family: 'open Sans', sans-serif;
+    float: right;
+    margin-right: 4%;
+ }
+
+ #searchbutton{
+  height: 27px;
+  width: 60px;
+  background-color:hsl(167deg 100% 37%);
+  border: none;
+  border-radius: 4px; 
+  color: white;
+ }
+ 
+
+ 
+ 
+ 

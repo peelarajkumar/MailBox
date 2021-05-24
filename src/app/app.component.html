@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<div class="leftcont">
+
+    <button id="compose" type="button" class="btn btn-comp"> <a id="incomp" routerLink = "/compose">Compose Mail</a></button>
+
+    <br>
+    <br>
+    <div class="folders">
+        <ul>FOLDERS
+            <br>
+            <a class="fold-in"><button type="button" class="btn"><span class="glyphicon glyphicon-inbox"></span>
+                        &nbsp;&nbsp;&nbsp;Inbox
+                    </button><span style="background-color:orange;" class="badge">20</span> </a><br>
+            <a href="send.html" class="fold-in"><button type="button" class="btn"><span
+                            class="glyphicon glyphicon-envelope">&nbsp;</span>
+                        Send Mail</button> <span class="bade"> </span></a><br>
+            <a class="fold-in"><button type="button" class="btn"><span
+                            class="glyphicon glyphicon-certificate">&nbsp;</span>Important</button> <span
+                        class="bade"></span></a><br>
+            <a class="fold-in"><button type="button" class="btn"><span
+                            class="glyphicon glyphicon-file">&nbsp;</span>
+                        Draft</button><span style="background-color:tomato;" class="badge">6</span> </a><br>
+            <a class="fold-in"><button type="button" class="btn"><span
+                            class="glyphicon glyphicon-trash">&nbsp;</span> Trash</button> <span class="bade"></span>
+                </a>
+        </ul>
+    </div>
+
+    <br>
+    <ul class="categories">CATEGORIES
+        <br>
+        <a><span class="dot-w"></span><button type="button" class="btn">Work</button> </a><br>
+        <a><span class="dot-d"></span><button type="button" class="btn">Document</button> </a><br>
+        <a><span class="dot-s"></span> <button type="button" class="btn">Social</button> </a><br>
+        <a><span class="dot-a"></span> <button type="button" class="btn">Advertising</button> </a><br>
+        <a> <span class="dot-c"></span> <button type="button" class="btn">clients </button> </a><br>
+
+    </ul>
+
+    <div class="labels">
+        <ul>LABELS
+            <br>
+            <br>
+            <p><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                        Family </button>
+                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                        Work </button>
+                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                        Home </button>
+            </p>
+            <p><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                        Children </button>
+                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                        Holidays </button>
+            </p>
+            <p> <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                        Music </button>
+                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                        Photography </button>
+            </p>
+        </ul>
+    </div>
+</div>
+<router-outlet></router-outlet>
